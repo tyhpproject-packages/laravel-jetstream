@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-jetstream",
+    "description": "Tyhp type definitions for laravel/jetstream 5.5.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.5.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-jetstream-impl": "~5.5.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-jetstream-impl"
+        }
+    }
+}
